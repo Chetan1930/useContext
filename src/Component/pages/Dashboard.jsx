@@ -33,6 +33,7 @@ const Dashboard = () => {
               onChange={(e) =>
                 setData({ ...data, [e.target.name]: e.target.value })
               }
+              required
             />{" "}
             <label>password : </label>
             <input
@@ -43,6 +44,7 @@ const Dashboard = () => {
               onChange={(e) =>
                 setData({ ...data, [e.target.name]: e.target.value })
               }
+              required
             />
             <button type="submit"> Login </button>
           </form>
